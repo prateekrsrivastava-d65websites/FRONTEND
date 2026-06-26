@@ -10,13 +10,18 @@ README with audience notes, design direction, tech stack, and reuse ideas.
 | Demo | Purpose | Local command | Live URL |
 | --- | --- | --- | --- |
 | [Khara Collective](./demos/khara-collective) | Boutique curated gifting website concept | `npm run dev:khara` | https://prateekrsrivastava-d65websites.github.io/FRONTEND/demos/khara-collective/ |
+| [Orbit Stack](./demos/orbit-stack) | Cinematic moving AI platform landing page concept | `npm run dev:orbit` | https://prateekrsrivastava-d65websites.github.io/FRONTEND/demos/orbit-stack/ |
 
 ## Repository Shape
 
 ```text
 .
 ├── demos/
-│   └── khara-collective/
+│   ├── khara-collective/
+│   │   ├── README.md
+│   │   ├── package.json
+│   │   └── src/
+│   └── orbit-stack/
 │       ├── README.md
 │       ├── package.json
 │       └── src/
@@ -38,6 +43,12 @@ Run the Khara Collective demo:
 
 ```bash
 npm run dev:khara
+```
+
+Run the Orbit Stack demo:
+
+```bash
+npm run dev:orbit
 ```
 
 Build all demos for GitHub Pages:
