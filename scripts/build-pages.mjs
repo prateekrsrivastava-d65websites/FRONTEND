@@ -14,6 +14,11 @@ const demos = [
     title: "Orbit Stack",
     copy: "Cinematic moving AI platform landing page concept with canvas motion and animated product sections.",
   },
+  {
+    slug: "perplexity-answer",
+    title: "Perplexity Answer",
+    copy: "shadcn-style answer page UI recreation with sidebar, sources panel, follow-ups, and fixed composer.",
+  },
 ];
 
 await rm(pagesDir, { recursive: true, force: true });

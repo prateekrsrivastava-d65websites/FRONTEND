@@ -9,11 +9,14 @@
   "scripts": {
     "dev:khara": "npm run dev --workspace khara-collective",
     "dev:orbit": "npm run dev --workspace orbit-stack",
-    "build": "npm run build:khara && npm run build:orbit && node scripts/build-pages.mjs",
+    "dev:perplexity": "npm run dev --workspace perplexity-answer",
+    "build": "npm run build:khara && npm run build:orbit && npm run build:perplexity && node scripts/build-pages.mjs",
     "build:khara": "npm run build --workspace khara-collective",
     "build:orbit": "npm run build --workspace orbit-stack",
+    "build:perplexity": "npm run build --workspace perplexity-answer",
     "preview:khara": "npm run preview --workspace khara-collective",
-    "preview:orbit": "npm run preview --workspace orbit-stack"
+    "preview:orbit": "npm run preview --workspace orbit-stack",
+    "preview:perplexity": "npm run preview --workspace perplexity-answer"
   },
   "devDependencies": {
     "playwright": "^1.61.1"

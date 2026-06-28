@@ -11,6 +11,7 @@ README with audience notes, design direction, tech stack, and reuse ideas.
 | --- | --- | --- | --- |
 | [Khara Collective](./demos/khara-collective) | Boutique curated gifting website concept | `npm run dev:khara` | https://prateekrsrivastava-d65websites.github.io/FRONTEND/demos/khara-collective/ |
 | [Orbit Stack](./demos/orbit-stack) | Cinematic moving AI platform landing page concept | `npm run dev:orbit` | https://prateekrsrivastava-d65websites.github.io/FRONTEND/demos/orbit-stack/ |
+| [Perplexity Answer](./demos/perplexity-answer) | shadcn-style answer page UI recreation study | `npm run dev:perplexity` | https://prateekrsrivastava-d65websites.github.io/FRONTEND/demos/perplexity-answer/ |
 
 ## Repository Shape
 
@@ -22,6 +23,10 @@ README with audience notes, design direction, tech stack, and reuse ideas.
 │   │   ├── package.json
 │   │   └── src/
 │   └── orbit-stack/
+│   │   ├── README.md
+│   │   ├── package.json
+│   │   └── src/
+│   └── perplexity-answer/
 │       ├── README.md
 │       ├── package.json
 │       └── src/
@@ -49,6 +54,12 @@ Run the Orbit Stack demo:
 
 ```bash
 npm run dev:orbit
+```
+
+Run the Perplexity Answer demo:
+
+```bash
+npm run dev:perplexity
 ```
 
 Build all demos for GitHub Pages:
